@@ -23,6 +23,7 @@ The Framingham Heart Study is a long term prospective study of the etiology of c
 The dataset is a rather small subset of possible FHS dataset, having 4240 observations and 16 variables. The variables are as follows:
 
 sex : the gender of the observations. The variable is a binary named “male” in the dataset.
+
 age : Age at the time of medical examination in years.
 education : A categorical variable of the participants education, with the levels: Some high school (1), high school/GED (2), some college/vocational school (3), college (4)
 currentSmoker: Current cigarette smoking at the time of examinations
