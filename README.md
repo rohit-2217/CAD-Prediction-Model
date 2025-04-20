@@ -25,20 +25,44 @@ The dataset is a rather small subset of possible FHS dataset, having 4240 observ
 sex : the gender of the observations. The variable is a binary named “male” in the dataset.
 
 age : Age at the time of medical examination in years.
+
 education : A categorical variable of the participants education, with the levels: Some high school (1), high school/GED (2), some college/vocational school (3), college (4)
+
 currentSmoker: Current cigarette smoking at the time of examinations
+
 cigsPerDay: Number of cigarettes smoked each day
+
 BPmeds: Use of Anti-hypertensive medication at exam
+
 prevalentStroke: Prevalent Stroke (0 = free of disease)
+
 prevalentHyp: Prevalent Hypertensive. Subject was defined as hypertensive if treated
+
 diabetes: Diabetic according to criteria of first exam treated
+
 totChol: Total cholesterol (mg/dL)
+
 sysBP: Systolic Blood Pressure (mmHg)
+
 diaBP: Diastolic blood pressure (mmHg)
+
 BMI: Body Mass Index, weight (kg)/height (m)^2
+
 heartRate: Heart rate (beats/minute)
+
 glucose: Blood glucose level (mg/dL)
+
 And finally the response variable : + TenYearCHD : The 10 year risk of coronary heart disease(CHD).
 
 Objective :
 The goal is to make some predictive models on a FHS dataset, and reviewing some exploratory and modelling techiniques.
+
+ML Models used: 
+
+The five algorithms that will be used are:
+
+1. Logistic Regression
+2. k-Nearest Neighbours
+3. Decision Trees
+4. Support Vector Machine 
+5. Random Forest Classifier
